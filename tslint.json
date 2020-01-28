@@ -1,0 +1,78 @@
+{
+    "extends": [
+        "tslint:latest",
+        "tslint-react",
+        "tslint-config-prettier",
+        "tslint-consistent-codestyle",
+        "tslint-sonarts",
+        "tslint-no-circular-imports",
+        "tslint-react-hooks"
+    ],
+    "rules": {
+        "no-trailing-whitespace": [true, "always"],
+        "prefer-const": [true, {
+            "destructuring": "any"
+        }],
+        "semicolon": [true, "always", "ignore-bound-class-methods"],
+        "space-before-function-paren": [true, {
+            "anonymous": "always",
+            "named": "never",
+            "asyncArrow": "always"
+        }],
+        "quotemark": [true, "single", "jsx-double"],
+
+        "no-submodule-imports": false,
+        "no-console": [true, "warning"],
+        "jsx-boolean-value": [true, "never"],
+
+        "variable-name": false,
+
+        "no-duplicate-imports": false,
+        "interface-name": false,
+        "trailing-comma": [true, {
+            "multiline": "never",
+            "singleline": "never"
+        }],
+
+        "max-union-size": [true, 7],
+        "member-ordering": false,
+        "ordered-imports": false,
+        "object-literal-sort-keys": false,
+        "no-string-literal": false,
+        "jsx-no-lambda": false,
+        "no-empty": [true, "allow-empty-functions"],
+        "ban-types": false,
+        "jsdoc-format": false,
+        "array-type": false,
+        "no-duplicate-string": false,
+        "no-gratuitous-expressions": false,
+        "no-commented-code": true,
+        "only-arrow-functions": false,
+        "no-nested-template-literals": false,
+
+        "interface-over-type-literal": false,
+        "no-implicit-dependencies": false,
+        "no-angle-bracket-type-assertion": false,
+        "await-promise": true,
+        "no-floating-promises": true,
+        "return-undefined": true,
+        "no-unnecessary-qualifier": true,
+        "no-unnecessary-type-assertion": true,
+
+        "no-circular-imports": false,
+
+        "react-hooks-nesting": false,
+
+        "early-exit": [true, {
+            "max-length": 2
+        }],
+        "no-accessor-recursion": true,
+        "no-collapsible-if": true,
+        "no-unnecessary-else": true,
+        "no-unused": true,
+        "no-unused-expression": [true, "allow-fast-null-checks"],
+        "no-var-before-return": [true, "allow-destructuring"],
+        "prefer-const-enum": false,
+        "prefer-while": true
+    }
+}
